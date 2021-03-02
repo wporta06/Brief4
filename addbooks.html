@@ -7,12 +7,13 @@
     <!-- CSS here -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="sass/addbooks.css">
     <!-- SEO HERE -->
     <title>BookStore</title>
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <img src="imgs/logo.png" alt="logo image">
         <ul class="nav-links">
             <li><a href="#" class="active">Home</a></li>
@@ -37,9 +38,31 @@
                 </a>
             </li>
         </ul>
-    </header>
+    </header> -->
 
-    <footer>
+    <img src="imgs/bestselling.png" alt="">
+    <main class="class_main">
+        <img class="book_img" style="width:500px;height:600px;" src="imgs/book2.png" alt="">
+        <section>
+            <form >
+                <label>Title:</label><br>
+                <input type="text"><br>
+                <label>Author:</label><br>
+                <input type="text"><br>
+                <label>price:</label><br>
+                <input id="price" type="number"><br>
+                <label>Discription:</label><br>
+                <textarea type="text"></textarea><br>
+            </form>   
+        </section>
+        
+        
+    </main>
+    <div>
+        <button class="btnn btn1" type="button" >SAVE</button>
+        <button class="btnn btn2" type="button" >DELETE</button>
+    </div>
+    <!-- <footer>
 
         <div class="company">
             <h3 class="titles">Ebook<span>s</span></h3>
@@ -66,7 +89,7 @@
             </div>
         </div>
 
-    </footer>
+    </footer> -->
 </body>
 <!-- js here -->
 <script src="js/sandbox.js"></script>
