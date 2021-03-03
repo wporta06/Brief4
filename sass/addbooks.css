@@ -1,12 +1,13 @@
 *{
     /* background-color: black; */
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+    /* font-size: x-large; */
     margin: 0%;
     padding: 0%;
     border-radius: 2%;
     text-decoration: none;
-    background-color: black;
+    /* background-color: black; */
 }
 
 html {box-sizing: border-box;}
@@ -36,14 +37,18 @@ section{
     /* border: solid 2px red; */
     width: 70%;
     margin: 2%;
+    
 }
 
-form{
+form {
     text-align: left;
     padding: 4%;
     background-color: transparent;
+    font-size: x-large;
+    margin-top: 15%;
     
 }
+
 form input, textarea{
     width: 85%;
     height: 35px;
@@ -51,7 +56,7 @@ form input, textarea{
     
 }
 textarea{
-    height: auto;
+    height: 10%;
     border-color: rgb(255, 255, 255);
     margin: 2%;
     width: 85%;
@@ -70,10 +75,12 @@ div{
     margin: 1px 2px;
     cursor: pointer;
     border-radius: 10px;
+    
 }
 .btn1{
     margin: 2%;
     background-color: #105cff;
+    width: 50%;
 }
 .btn2{
     margin: 2%;
@@ -81,7 +88,7 @@ div{
 }
 .book_img{
     margin: 2%;
-    
+    border-radius: 4%;    
 }
 input{
     border-color: rgb(255, 255, 255);
@@ -93,3 +100,45 @@ label{
 #price{
     width: 20%;
 }
+#book_div{
+   
+    background-color: #105cff00;
+}
+
+
+@media only screen and (max-width: 1360px) {
+
+    *{
+        /* background-color: blue; */
+    }
+    .class_main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section{
+        width: 100%;
+    }
+    .book_img{
+        display: inline-block;
+    }
+    #book_div{
+        text-align: center;
+        width: 100%;
+        background-color: #403f3f;
+    }
+    /* #book_div{
+        width: 100%;
+        display: flex;
+        justify-content: center;   
+    } */
+    .btnn{
+        /* background-color: #ff1010; */
+       
+        width: 50%;
+    }
+    textarea{
+        
+        width: 85%;
+    }
+}
+

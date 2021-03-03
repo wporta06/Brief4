@@ -9,8 +9,8 @@ section{
  /* border-radius: 2%; */
 }
 section div{
-  background-color: #a26a12;
- padding: 30px;
+background-color: #a26a12;
+ padding: 10px;
  /* border-radius: 3%; */
  width: 100%;
  text-align: left;
@@ -41,3 +41,13 @@ textarea{
   width: 50%;
   height: 50%;
 }
+.cont_img{
+  width: 30%;
+  height: auto;
+  margin-bottom: 2%;
+}
+.contuct{
+
+  text-align: center;
+}
+
