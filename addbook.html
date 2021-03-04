@@ -7,7 +7,7 @@
     <!-- CSS here -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="sass/style.css">
-    <link rel="stylesheet" href="sass/addbooks.css">
+    <link rel="stylesheet" href="sass/addbook.css">
     <!-- SEO HERE -->
     <title>BookStore</title>
 </head>
@@ -19,8 +19,8 @@
             <li><a href="index.html" >Home</a></li>
             <li><a href="Gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="addbooks.html"class="active">Add books</a></li>
-            <li><a href="addbook.html" >Add book</a></li>
+            <li><a href="addbooks.html">Add books</a></li>
+            <li><a href="addbook.html" class="active">Add book</a></li>
         </ul>
         <ul class="nav-icons-sc">
             <li>
@@ -41,30 +41,26 @@
         </ul>
     </header>
 
-    <img src="imgs/OTHERBOOKS.png" alt="" style="padding-top: 80px;">
-    <main class="class_main">
-       <div id="book_div">
-            <img class="book_img" style="width:400px;height:600px;" src="imgs/book2.png" alt="">
-       </div>
-        <section>
-            <form >
-                <label>Title:</label><br>
-                <input type="text"><br>
-                <label>Author:</label><br>
-                <input type="text"><br>
-                <label>price:</label><br>
-                <input id="price" type="number"><br>
-                <label>Discription:</label><br>
-                <textarea type="text"></textarea><br>
-            </form>   
-        </section>
-        
-        
+    <img class="img-cla1" src="imgs/OTHERBOOKS.png" alt="" style="padding-top: 80px;" >
+    <main class="main_cla" >
+        <form class="form_cla">
+            <label class="label_cla" >Title:</label><br>
+            <input class="inp_cla" type="text"><br>
+
+            <label class="label_cla">Author:</label><br>
+            <input class="inp_cla" type="text"><br>
+
+            <img class="img_cla img-cla1" src="imgs/book1.png" alt="">
+            <input  class="fill_in" type="file">
+            
+
+            <label class="label_cla">Discription:</label><br>
+            <textarea class="textarea_cla" cols="30" rows="50"></textarea><br>
+
+            <button class="button_cla" type="submit">Submit</button>
+        </form>
     </main>
-    <div>
-        <button class="btnn btn1" type="button" >SAVE</button>
-        <button class="btnn btn2" type="button" >DELETE</button>
-    </div>
+    
     <footer>
 
         <div class="company">

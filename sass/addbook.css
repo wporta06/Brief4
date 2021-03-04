@@ -1,0 +1,106 @@
+/* body{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+ 
+} */
+
+.img-cla1{
+    /* border: red 2px solid; */
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.main_cla{
+    /* border: rgb(0, 81, 255) 2px solid; */
+    /* display: inline-block;
+    text-align: center;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    width: 70%;
+    height: 200vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8vh;
+    box-shadow: 0 3px 17px 0 rgb(0 0 0);
+
+}
+.img_cla{
+    width: 300px;
+    height: auto;
+    /* margin: 10%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    border-radius: 3vh;
+    box-shadow: 0 3px 17px 0 rgb(255 255 255);
+}
+.inp_cla{
+    width: 95%;
+    height: 4%;
+    border-radius: 11px;
+    background: #fff;
+    border: 1px solid #707070;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    box-shadow: 0 3px 17px 0 rgb(255 255 255);
+    font-size: x-large;
+}
+.textarea_cla{
+    /* border: rgb(21, 255, 0) 2px solid; */
+
+    width: 95%;
+    height: 10%;
+    border-radius: 11px;
+    background: #fff;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    box-shadow: 0 3px 17px 0 rgb(255 255 255);
+    font-size: x-large;
+}
+.form_cla{
+    /* border: rgb(21, 255, 0) 2px solid; */
+
+    width: 70%;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 3vh;
+    padding-top: 2%;
+    box-shadow: 0 3px 17px 0 rgb(0 0 0);
+}
+.button_cla{
+    width: 35%;
+    height: 4%;
+    border-radius: 15px;
+    background-color: #285dfa;
+    color: white;
+    border-color: #285dfa;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 3px 17px 0 rgb(27 26 255);
+    font-size: x-large;
+}
+
+.fill_in{
+    border-radius: 15px;
+    background-color: #285dfa;
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10%;
+    font-size: x-large;
+}
+.label_cla{
+    color: white;
+    background-color: #74747400;
+    font-size: x-large;
+    font-family: cursive;
+}
